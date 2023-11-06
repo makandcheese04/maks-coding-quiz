@@ -1,3 +1,107 @@
-.hide{
-    display: none;
-}
+/* Reset some default browser styles */
+body, h1, h2, ul, p {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Set a background color and text color for the entire page */
+  body {
+    background-color: #d0b0c6;
+    color: #333;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Style the header */
+  h1 {
+    text-align: center;
+    background-color: #d165aa;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  /* Style the quiz container */
+  #quiz-container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  /* Style the question container */
+  #question-container {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 600px;
+  }
+  
+  /* Style the question */
+  #question {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  }
+  
+  /* Style the answer choices list */
+  #choices {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Style individual answer choices */
+  #choices li {
+    margin: 5px 0;
+    background-color: #da7cd6;
+    color: #fff;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  /* Add hover effect to answer choices */
+  #choices li:hover {
+    background-color: #c687c5;
+  }
+  
+  /* Style the timer */
+  #timer {
+    margin: 20px;
+    font-size: 1.2em;
+  }
+  
+  /* Style the result container */
+  #result-container {
+    text-align: center;
+  }
+  
+  /* Style the result */
+  #result {
+    font-size: 1.2em;
+  }
+  
+  /* Style the initials input and save score button */
+  #initials {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-top: 10px;
+  }
+  
+  #save-score {
+    padding: 10px 20px;
+    background-color: #b464ae;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  /* Center the save score button */
+  #save-score {
+    display: block;
+    margin: 0 auto;
+  }
